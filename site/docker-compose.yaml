@@ -1,0 +1,9 @@
+services:
+  server:
+    image: klakegg/hugo
+    restart: always
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"

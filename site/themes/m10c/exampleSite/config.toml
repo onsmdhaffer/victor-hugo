@@ -1,5 +1,8 @@
-title = "Ons MDHAFFER"
+baseURL = "https://example.com"
+title = "Your title"
+themesDir = "../.."
 theme = "m10c"
+paginate = 8
 
 [menu]
   [[menu.main]]
@@ -19,18 +22,17 @@ theme = "m10c"
     weight = 3
 
 [params]
-  author = "Ons MDHAFFER"
-  description = "Power resides where men believe it resides"
+  author = "John Doe"
+  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   menu_item_separator = " - "
- # avatar = "/home/kali/cv/themes/m10c/avatar.jpg"
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/onsmdhaffer"
+    url = "https://github.com/gohugoio"
   [[params.social]]
     icon = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/ons_mdhaffer"
+    url = "https://twitter.com/gohugoio"
 
   # Default theme
   #[params.style]
@@ -55,4 +57,3 @@ theme = "m10c"
   #  lightColor = "#d6d6d6"
   #  lightestColor = "#d3d3d3"
   #  primaryColor = "#ffffff"
-
